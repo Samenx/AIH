@@ -1,0 +1,9 @@
+{
+  "name": "ai-h",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": { "dev": "vite", "server": "node server/index.js", "start": "node server/index.js", "build": "vite build" },
+  "dependencies": { "@vitejs/plugin-react": "latest", "vite": "latest", "typescript": "latest", "react": "latest", "react-dom": "latest", "lucide-react": "latest", "express": "latest" },
+  "devDependencies": {}
+}
