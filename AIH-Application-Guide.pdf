@@ -1,0 +1,232 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 3602 >>
+stream
+q
+0.97 0.98 1 rg
+0 0 595 842 re f
+Q
+0.12 0.31 0.66 rg
+54 811 487 2 re f
+BT /F2 24 Tf 0.114 0.306 0.847 rg 54 769 Td (AI H Application Guide) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 750 Td (Product, workflow, and technical reference) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 731 Td (Version 1.0 | October 2026) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 693 Td (AI H is a project-workspace application that combines issue tracking, sprint planning,) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 678 Td (employee work submission, and AI-assisted documentation. It is designed to give teams) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 663 Td (one place to plan delivery, complete work, retain implementation knowledge, and review) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 648 Td (quality.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 610 Td (This guide describes the application as implemented in this workspace: its user-facing) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 595 Td (areas, common workflows, state model, and supporting API.) Tj ET
+BT /F2 17 Tf 0.114 0.306 0.847 rg 54 544 Td (1. Product purpose) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 525 Td (AI H connects day-to-day delivery work with durable project knowledge. Teams create and) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 510 Td (prioritize issues, move them through a delivery workflow, attach evidence when work is) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 495 Td (complete, and generate documentation from that submission.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 457 Td (The product is particularly useful for engineering and cross-functional teams that need) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 442 Td (a lightweight project system without losing the context behind completed work.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 404 Td (Core outcomes:) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 385 Td (- Give each contributor a focused view of assigned work.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 366 Td (- Give project leads a shared view of progress, risk, and sprint execution.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 347 Td (- Preserve supporting evidence and implementation decisions.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 328 Td (- Generate and review documentation as a natural part of finishing work.) Tj ET
+BT /F2 17 Tf 0.114 0.306 0.847 rg 54 277 Td (2. Main navigation and workspace) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 258 Td (The application shell has a persistent sidebar, a project selector in the header,) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 243 Td (notifications, and global search access. The sidebar contains the primary workspace) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 228 Td (destinations and project-specific delivery views.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 190 Td (My work is the personal queue for the signed-in contributor. Projects is the portfolio) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 175 Td (view. The project navigation includes Issues, Board, Backlog, Sprints, and) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 160 Td (Documentation. The sidebar can collapse to an icon rail for smaller layouts.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 122 Td (A project selector in the header changes the active project context. The visible sample) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 107 Td (workspace includes AI H Platform, E-Commerce System, Mobile Banking, and Internal Tools.) Tj ET
+BT /F1 8 Tf 0.45 0.49 0.56 rg 54 30 Td (AI H Application Guide) Tj 465 30 Td (Page 1 of 5) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3806 >>
+stream
+q
+0.97 0.98 1 rg
+0 0 595 842 re f
+Q
+0.12 0.31 0.66 rg
+54 811 487 2 re f
+BT /F2 17 Tf 0.114 0.306 0.847 rg 54 769 Td (3. My work and issue management) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 750 Td (My work prioritizes issues assigned to the current user. It summarizes open work, active) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 735 Td (work, items waiting for a submission, and work needing attention. The issue table) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 720 Td (supports status views and text search by issue key, title, epic, or labels.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 682 Td (Each issue records an ID, title, workflow status, priority, assignee, estimate, labels,) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 667 Td (epic, description, project, documentation status, optional work submission, and) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 652 Td (dependencies.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 614 Td (Selecting an issue opens a detail drawer. The drawer shows the description,) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 599 Td (requirements, linked dependencies, submitted evidence, attachments, comments,) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 584 Td (properties, labels, and activity. Users can change the workflow status, inspect the) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 569 Td (priority, or begin work submission.) Tj ET
+BT /F2 17 Tf 0.114 0.306 0.847 rg 54 518 Td (4. Delivery workflow) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 499 Td (The default workflow is: To Do, In Progress, Submit Work, Documentation Review, and) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 484 Td (Done. A separate Open view includes all work that is not Done.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 446 Td (Issues can be moved by using the board or issue controls. When an issue is blocked by a) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 431 Td (linked prerequisite, AI H prevents it from moving to Done until that prerequisite is) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 416 Td (complete. This keeps delivery sequencing visible rather than relying on informal) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 401 Td (reminders.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 363 Td (Priorities are Highest, High, Medium, and Low. Documentation progresses independently) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 348 Td (through Not Started, Work Submitted, Generating, Needs Review, and Approved.) Tj ET
+BT /F2 17 Tf 0.114 0.306 0.847 rg 54 297 Td (5. Board, backlog, and sprints) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 278 Td (The Board presents active project work as columns for each workflow state. Cards show) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 263 Td (the issue key, priority, title, labels, assignee, estimate, documentation state, and any) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 248 Td (dependency warning. Cards can be dragged between columns, with dependency validation) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 233 Td (applied when completing work.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 195 Td (The Backlog supports planning before work enters a sprint. It groups issues alongside) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 180 Td (epics and shows task priority, labels, assignee, and estimate.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 142 Td (The Sprints page provides a sprint timeline, completion summary, dates, goal, and a) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 127 Td (scoped board. The example workspace includes active and completed sprints so teams can) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 112 Td (inspect current delivery and prior planning cycles.) Tj ET
+BT /F1 8 Tf 0.45 0.49 0.56 rg 54 30 Td (AI H Application Guide) Tj 465 30 Td (Page 2 of 5) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3432 >>
+stream
+q
+0.97 0.98 1 rg
+0 0 595 842 re f
+Q
+0.12 0.31 0.66 rg
+54 811 487 2 re f
+BT /F2 17 Tf 0.114 0.306 0.847 rg 54 769 Td (6. Projects portfolio) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 750 Td (Projects provides a portfolio-level view of teams and initiatives. Each project card) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 735 Td (shows its key, lead, issue count, completion progress, active sprint, documentation) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 720 Td (coverage, and delivery health. The portfolio can be searched by project name, key, or) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 705 Td (lead.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 667 Td (Opening a project switches the selected project and takes the user to its issue context.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 652 Td (This makes the portfolio a launch point rather than a passive report.) Tj ET
+BT /F2 17 Tf 0.114 0.306 0.847 rg 54 601 Td (7. Work submission and evidence) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 582 Td (When work is ready, a contributor can submit a work record directly from an issue. The) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 567 Td (submission asks what was completed, supporting evidence, the preferred documentation) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 552 Td (format, optional AI instructions, and optional Git information for code-based work.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 514 Td (Evidence supports screenshots, files, code, video, and audio. Git fields can capture) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 499 Td (repository, branch, and pull request details. Submitting work records the evidence) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 484 Td (against the issue and starts the documentation flow.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 446 Td (The employee submission is visible in the issue drawer so reviewers can validate the) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 431 Td (result before documentation approval.) Tj ET
+BT /F2 17 Tf 0.114 0.306 0.847 rg 54 380 Td (8. Documentation and AI assistance) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 361 Td (Documentation is organized by project and task. The hierarchy view lets users search) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 346 Td (documents, expand projects, select a task document, inspect its metadata, and open it) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 331 Td (for editing or approval.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 293 Td (AI H generates a structured document using the submitted work, evidence, selected) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 278 Td (format, and optional instructions. The editor supports preview and edit modes, AI) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 263 Td (refinement prompts, export, a table of contents, and final approval.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 225 Td (Built-in documentation formats include technical implementation guides, sales activity) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 210 Td (reports, business analysis reports, research findings, bug-fix reports, deployment) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 195 Td (runbooks, and client handover guides. Administrators can define reusable custom) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 180 Td (structures in settings.) Tj ET
+BT /F1 8 Tf 0.45 0.49 0.56 rg 54 30 Td (AI H Application Guide) Tj 465 30 Td (Page 3 of 5) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 3372 >>
+stream
+q
+0.97 0.98 1 rg
+0 0 595 842 re f
+Q
+0.12 0.31 0.66 rg
+54 811 487 2 re f
+BT /F2 17 Tf 0.114 0.306 0.847 rg 54 769 Td (9. Search, notifications, and settings) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 750 Td (Global search searches issues, people, labels, and related project content.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 735 Td (Notifications surface events such as generated documentation, submitted work, mentions,) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 720 Td (and sprint changes.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 682 Td (Project settings support project details, members, issue types, workflows,) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 667 Td (notifications, documentation structures, and AI style instructions. Settings are) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 652 Td (intended for project leads and administrators who need to tailor how delivery and) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 637 Td (documentation operate.) Tj ET
+BT /F2 17 Tf 0.114 0.306 0.847 rg 54 586 Td (10. Technical architecture) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 567 Td (The client is a React and TypeScript single-page application built with Vite and) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 552 Td (lucide-react icons. The UI state loads task data from a local Express API and falls back) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 537 Td (to local seed data if the API is unavailable.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 499 Td (The server exposes JSON endpoints for tasks, documentation templates, submissions,) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 484 Td (document generation, approvals, notifications, and health checks. Local data is stored) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 469 Td (in server/data.json; in Vercel deployments it uses /tmp/aih-data.json.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 431 Td (Key endpoints include GET /api/tasks, POST /api/tasks, PATCH /api/tasks/:id, POST) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 416 Td (/api/tasks/:id/submission, POST /api/tasks/:id/generate-documentation, POST) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 401 Td (/api/tasks/:id/approve-documentation, GET /api/document-templates, and GET /api/health.) Tj ET
+BT /F2 17 Tf 0.114 0.306 0.847 rg 54 350 Td (11. Typical end-to-end workflow) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 331 Td (1. A lead creates and prioritizes an issue in the backlog.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 312 Td (2. The issue is planned into a sprint and assigned to a contributor.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 293 Td (3. The contributor moves it through To Do and In Progress on the board.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 274 Td (4. When finished, the contributor submits a concise work summary and evidence.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 255 Td (5. AI H generates project documentation from the completed work.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 236 Td (6. A reviewer validates the task and approves the documentation.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 217 Td (7. The issue reaches Done, while its evidence and documentation remain available to the) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 202 Td (project.) Tj ET
+BT /F1 8 Tf 0.45 0.49 0.56 rg 54 30 Td (AI H Application Guide) Tj 465 30 Td (Page 4 of 5) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 1197 >>
+stream
+q
+0.97 0.98 1 rg
+0 0 595 842 re f
+Q
+0.12 0.31 0.66 rg
+54 811 487 2 re f
+BT /F2 17 Tf 0.114 0.306 0.847 rg 54 769 Td (12. Current design principles) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 750 Td (The UI favors high-signal work views: clear workflow states, compact metadata, immediate) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 735 Td (access to creation and search, responsive layouts, and direct links between delivery and) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 720 Td (knowledge. The visual system uses a persistent sidebar, a restrained blue action color,) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 705 Td (simple status pills, and readable table/card layouts.) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 667 Td (The application can be extended with authentication, live collaboration, richer) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 652 Td (permissions, external repository integrations, automated analytics, and production-grade) Tj ET
+BT /F1 10.5 Tf 0.153 0.212 0.290 rg 54 637 Td (persistent storage without changing the central work-to-documentation workflow.) Tj ET
+BT /F1 8 Tf 0.45 0.49 0.56 rg 54 30 Td (AI H Application Guide) Tj 465 30 Td (Page 5 of 5) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 5 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000000019 00000 n 
+0000000089 00000 n 
+0000000164 00000 n 
+0000003818 00000 n 
+0000003955 00000 n 
+0000007813 00000 n 
+0000007950 00000 n 
+0000011434 00000 n 
+0000011571 00000 n 
+0000014995 00000 n 
+0000015133 00000 n 
+0000016383 00000 n 
+0000016522 00000 n 
+0000016606 00000 n 
+trailer
+<< /Size 15 /Root 14 0 R >>
+startxref
+16657
+%%EOF

@@ -1,0 +1,210 @@
+/* Board colors follow the charcoal surfaces used by My Work and Projects. */
+main:has(.board-dark),
+.board-dark,
+.project-workspace:has(.actual-project-board),
+.actual-project-board {
+  background: #1e1f21;
+  color: #f5f6f7;
+}
+.board-dark .sprint-strip,
+.board-dark .kanban-col,
+.actual-project-board > section {
+  background: #252628;
+  border-color: #343536;
+  color: #f5f6f7;
+}
+.board-dark .task-card,
+.actual-project-board > section > button.project-task-card {
+  background: #2a2b2d;
+  border-color: #3b3c3f;
+  color: #f5f6f7;
+  box-shadow: none;
+}
+.board-dark .task-card:hover,
+.actual-project-board > section > button.project-task-card:hover {
+  background: #303134;
+  border-color: #5a6f96;
+}
+.board-dark .page-head h1,
+.board-dark .task-card h3,
+.board-dark .col-head b,
+.board-dark .sprint-strip b {
+  color: #f5f6f7;
+}
+.board-dark .eyebrow,
+.board-dark .page-head p,
+.board-dark .sprint-strip span,
+.board-dark .progress span,
+.board-dark .issue-key,
+.board-dark .count,
+.board-dark .add-card,
+.actual-project-board .project-task-card small,
+.actual-project-board .project-empty,
+.actual-project-board h2 small {
+  color: #a2a3a5;
+}
+.board-dark .secondary,
+.board-dark .inline-search,
+.board-dark .clear-filters,
+.board-dark .filter-person,
+.board-dark .person-filter {
+  background: #252628;
+  border-color: #454649;
+  color: #d5d6d8;
+}
+.board-dark input { color: #f5f6f7; background: transparent; }
+.board-dark input::placeholder { color: #a2a3a5; }
+.board-dark .col-head > span,
+.board-dark .points,
+.board-dark .badge {
+  background: #383a40;
+  color: #c9cbd1;
+}
+.board-dark .badge.high,
+.board-dark .badge.highest { background: #503332; color: #ffb5a9; }
+.board-dark .badge.medium { background: #493e2c; color: #ebcb87; }
+.board-dark .badge.low { background: #2b403a; color: #9ed6bc; }
+.board-dark .filter-button,
+.board-dark .badge.blue,
+.board-dark .submit-mini,
+.board-dark .dependency-card {
+  background: #2d3f5c;
+  border-color: #4573d2;
+  color: #aac8ff;
+}
+.board-dark .filter-button.active,
+.board-dark .filter-button span { background: #344d74; color: #d3e2ff; }
+.board-dark .doc-state { color: #b4a7ed; }
+.board-dark .doc-state.approved { color: #8fc9aa; }
+.board-dark .progress > div { background: #3b3c40; }
+.board-dark .add-card:hover { background: #303134; color: #f5f6f7; }
+.board-dark .kanban-col.is-drop-active { background: #28354a; border-color: #5a84db; }
+.board-dark .task-card:focus-visible,
+.actual-project-board .project-task-card:focus-visible { outline: 2px solid #8eb5ff; }
+
+/* Let content grow vertically without widening a column or overlapping its neighbors. */
+.board-dark,
+.project-workspace:has(.actual-project-board) { min-width: 0; }
+.board-dark .kanban-col,
+.actual-project-board > section { min-width: 0; }
+.board-dark .card-stack {
+  grid-template-columns: minmax(0, 1fr);
+  align-content: start;
+}
+.board-dark .task-card,
+.actual-project-board > section > button.project-task-card {
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
+  height: auto;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+.actual-project-board > section > button.project-task-card {
+  grid-template-columns: minmax(0, 1fr);
+}
+.board-dark .task-card > *,
+.actual-project-board .project-task-card > * { min-width: 0; max-width: 100%; }
+.board-dark .card-top,
+.board-dark .card-bottom {
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.board-dark .task-card h3,
+.actual-project-board .project-task-card > b {
+  overflow-wrap: anywhere;
+  white-space: normal;
+  line-height: 1.5;
+}
+.board-dark .task-card .badge {
+  max-width: 100%;
+  min-width: 0;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.board-dark .task-card .doc-state,
+.board-dark .task-card .dependency-card {
+  min-width: 0;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.board-dark .task-card svg,
+.board-dark .task-card .avatar,
+.actual-project-board .project-task-card .avatar { flex-shrink: 0; }
+.actual-project-board .project-task-card > span { flex-wrap: wrap; }
+
+/* Embedded project sprints share the project's dark workspace. */
+.project-workspace .sprint-page { max-width: none; }
+.project-workspace .sprint-summary,
+.project-workspace .gantt { background: #252628; border-color: #343536; }
+.project-workspace .sprint-summary h2,
+.project-workspace .sprint-summary b,
+.project-workspace .gantt-head b,
+.project-workspace .sprint-work-head h2 { color: #f5f6f7; }
+.project-workspace .sprint-summary p,
+.project-workspace .sprint-summary span,
+.project-workspace .sprint-work-head p,
+.project-workspace .gantt-head { color: #a2a3a5; }
+.project-workspace .gantt-head { border-color: #343536; }
+.project-workspace .gantt-body {
+  background: repeating-linear-gradient(90deg, #252628 0, #252628 calc(20% - 1px), #343536 calc(20% - 1px), #343536 20%);
+}
+.project-workspace .sprint-gantt-card { background: #303134; border-color: #454649; box-shadow: none; }
+.project-workspace .sprint-gantt-card.selected { background: #2d3f5c; border-color: #5a84db; }
+.project-workspace .sprint-gantt-card b { color: #d3e2ff; }
+.project-workspace .sprint-gantt-card > span { color: #b8bec8; }
+.project-workspace .sprint-gantt-card i,
+.project-workspace .sprint-summary .tiny-progress { background: #454649; }
+.project-tabs { overflow-x: auto; }
+.project-tabs > button { flex-shrink: 0; }
+
+main:has(.backlog-page),.backlog-page{background:#1e1f21;color:#f5f6f7}
+.backlog-page .page-head h1{color:#f5f6f7}
+.backlog-page .page-head p,.backlog-page .eyebrow{color:#a2a3a5}
+.backlog-tabs{display:flex;gap:6px;margin-bottom:20px}
+.backlog-tabs button{display:flex;align-items:center;gap:8px;border:1px solid #3b3c3f;border-radius:4px;background:#252628;color:#aeb0b5;padding:8px 14px;font-size:12px}
+.backlog-tabs button.selected{background:#3b3d42;color:#fff;border-color:#686c75}
+.backlog-tabs button:hover{background:#303134;color:#fff}
+.backlog-tabs button span{font-size:10px;color:#bec3cd}
+.backlog-page .epics{border-color:#343536}
+.backlog-page .epics h3,.backlog-page .epics small{color:#a2a3a5}
+.backlog-page .epics button{color:#c9ccd2;border-radius:4px;padding:9px 7px}
+.backlog-page .epics button.selected{background:#303134;color:#fff}
+.backlog-page .backlog-actions,.backlog-page .issue-row{background:#252628;color:#e2e4e8;border-color:#3b3c3f}
+.backlog-page .issue-list{border-color:#3b3c3f}
+.backlog-page .issue-row:hover{background:#303134}
+.backlog-page .issue-row b{min-width:0;overflow-wrap:anywhere}
+.backlog-page .issue-id{color:#aac8ff}
+.backlog-page .row-labels,.backlog-page .backlog-actions>span{color:#b5b9c1}
+.backlog-page .points{background:#3b3d42;color:#e2e4e8}
+.backlog-empty{display:flex;flex-direction:column;align-items:center;gap:10px;padding:40px 18px;text-align:center;color:#afb4be}
+.backlog-empty p{margin:0;font-size:12px}
+@media(max-width:700px){.backlog-page .backlog-layout{grid-template-columns:1fr}.backlog-page .epics{border-right:0}.backlog-page .issue-row{grid-template-columns:18px 65px minmax(0,1fr) 28px}.backlog-page .issue-row>.badge,.backlog-page .issue-row>.row-labels,.backlog-page .issue-row>.points{display:none}}
+
+/* Place view tabs directly below the title, as in My Work. */
+.backlog-page.content{padding:16px 24px 32px;max-width:none;margin:0}
+.backlog-page .page-head{min-height:40px;margin:0 0 4px;align-items:center}
+.backlog-page .backlog-tabs{margin:0 0 12px;padding-bottom:5px;border-bottom:1px solid #343536}
+.backlog-toolbar{display:flex;align-items:center;gap:16px;margin-bottom:16px;min-height:40px;flex-wrap:wrap}
+.backlog-toolbar p{margin:0;color:#a2a3a5;font-size:12px}
+@media(max-width:900px){.backlog-page.content{padding:12px 14px 24px}}
+
+/* Match My Work view-tab sizing and shape. */
+.backlog-page .backlog-tabs{gap:2px;padding-bottom:0}
+.backlog-page .backlog-tabs button{
+  padding:6px 10px;
+  margin:0 2px 5px 0;
+  border:0;
+  border-radius:5px;
+  background:transparent;
+  font-size:12px;
+  font-weight:500;
+  line-height:1.35;
+  gap:6px;
+}
+.backlog-page .backlog-tabs button.selected{
+  background:#2a2b2d;
+  font-weight:600;
+}
+.backlog-page .backlog-tabs button:hover{background:#2a2b2d}

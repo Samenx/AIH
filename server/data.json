@@ -1,0 +1,802 @@
+{
+  "tasks": [
+    {
+      "id": "AIH-139",
+      "assignee": "Ahmed",
+      "initials": "AH",
+      "doc": "Not Started",
+      "epic": "Platform",
+      "project": "AI H Platform",
+      "createdAt": "2026-10-08T17:20:04.075Z",
+      "title": "dddd",
+      "status": "To Do",
+      "priority": "Medium",
+      "points": 3,
+      "labels": [
+        "platform"
+      ],
+      "description": "New issue created in AI H.",
+      "assignedDate": "2026-10-08",
+      "dueDate": "2026-10-23",
+      "dependencies": [],
+      "estimateHours": 3.5
+    },
+    {
+      "id": "AIH-138",
+      "assignee": "Ahmed",
+      "initials": "AH",
+      "doc": "Not Started",
+      "epic": "Platform",
+      "project": "AI H Platform",
+      "createdAt": "2026-10-08T17:14:37.665Z",
+      "title": "test2",
+      "status": "Submit Work",
+      "priority": "Medium",
+      "points": 3,
+      "labels": [
+        "platform"
+      ],
+      "description": "New task.",
+      "dependencies": []
+    },
+    {
+      "id": "AIH-137",
+      "assignee": "Ahmed",
+      "initials": "AH",
+      "doc": "Not Started",
+      "epic": "Platform",
+      "project": "AI H Platform",
+      "createdAt": "2026-10-08T17:14:29.089Z",
+      "title": "test",
+      "status": "Documentation Review",
+      "priority": "Medium",
+      "points": 3,
+      "labels": [
+        "platform"
+      ],
+      "description": "New task.",
+      "dependencies": []
+    },
+    {
+      "id": "AIH-102",
+      "title": "Implement Google OAuth authentication",
+      "status": "In Progress",
+      "priority": "High",
+      "assignee": "Ahmed",
+      "initials": "AH",
+      "points": 5,
+      "labels": [
+        "authentication",
+        "backend"
+      ],
+      "doc": "Work Submitted",
+      "epic": "Authentication",
+      "description": "Implement secure OAuth sign-in and account linking with Google for the platform.",
+      "project": "AI H Platform",
+      "dependencies": [
+        {
+          "type": "blockedBy",
+          "issueId": "AIH-109"
+        }
+      ],
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-108",
+      "title": "Design workspace invitation flow",
+      "status": "To Do",
+      "priority": "Medium",
+      "assignee": "Sara",
+      "initials": "SA",
+      "points": 3,
+      "labels": [
+        "design",
+        "onboarding"
+      ],
+      "doc": "Not Started",
+      "epic": "Workspace",
+      "description": "Create the invitation experience for administrators and new team members.",
+      "project": "Internal Tools",
+      "dependencies": [],
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-109",
+      "title": "Add session refresh token rotation",
+      "status": "In Progress",
+      "priority": "Highest",
+      "assignee": "Omar",
+      "initials": "OM",
+      "points": 8,
+      "labels": [
+        "security",
+        "api"
+      ],
+      "doc": "Needs Review",
+      "epic": "Authentication",
+      "description": "Add rotation and expiry validation for all refresh sessions.",
+      "project": "AI H Platform",
+      "dependencies": [],
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-110",
+      "title": "Create audit-log event schema",
+      "status": "Documentation Review",
+      "priority": "High",
+      "assignee": "Lina",
+      "initials": "LI",
+      "points": 5,
+      "labels": [
+        "database",
+        "api"
+      ],
+      "doc": "Needs Review",
+      "epic": "Platform",
+      "description": "Define events, retention and query patterns for audit history.",
+      "project": "AI H Platform",
+      "dependencies": [
+        {
+          "type": "blocks",
+          "issueId": "AIH-115"
+        }
+      ],
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-111",
+      "title": "Build project activity timeline",
+      "status": "Done",
+      "priority": "Medium",
+      "assignee": "Yousef",
+      "initials": "YO",
+      "points": 3,
+      "labels": [
+        "frontend"
+      ],
+      "doc": "Approved",
+      "epic": "Workspace",
+      "description": "Expose meaningful project activity in a concise timeline.",
+      "project": "Internal Tools",
+      "dependencies": [],
+      "submission": {
+        "summary": "Built the activity timeline UI, added activity event formatting, and covered loading and empty states.",
+        "evidence": [
+          "activity-timeline-before-after.mp4",
+          "timeline-component.tsx",
+          "activity-empty-state.png"
+        ],
+        "repository": "aih/platform",
+        "branch": "feature/activity-timeline",
+        "pullRequest": "#142 Activity timeline"
+      },
+      "documentation": {
+        "generatedAt": "2026-10-06T09:30:00.000Z",
+        "approved": true
+      },
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-112",
+      "title": "Configure rate limiting middleware",
+      "status": "In Progress",
+      "priority": "High",
+      "assignee": "Ahmed",
+      "initials": "AH",
+      "points": 5,
+      "labels": [
+        "security",
+        "backend"
+      ],
+      "doc": "Not Started",
+      "epic": "Platform",
+      "description": "Protect public API endpoints with tiered request limits.",
+      "project": "AI H Platform",
+      "dependencies": [],
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-113",
+      "title": "Mobile navigation accessibility pass",
+      "status": "To Do",
+      "priority": "Low",
+      "assignee": "Sara",
+      "initials": "SA",
+      "points": 2,
+      "labels": [
+        "accessibility",
+        "frontend"
+      ],
+      "doc": "Not Started",
+      "epic": "Mobile",
+      "description": "Audit keyboard and screen reader paths across mobile navigation.",
+      "project": "Mobile Banking",
+      "dependencies": [],
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-114",
+      "title": "Refactor notification preferences",
+      "status": "Done",
+      "priority": "Medium",
+      "assignee": "Lina",
+      "initials": "LI",
+      "points": 5,
+      "labels": [
+        "frontend",
+        "settings"
+      ],
+      "doc": "Approved",
+      "epic": "Workspace",
+      "description": "Allow granular per-channel notification preference controls.",
+      "project": "Internal Tools",
+      "dependencies": [],
+      "submission": {
+        "summary": "Refactored notification preferences into reusable controls and added validation for each delivery channel.",
+        "evidence": [
+          "notification-settings.png",
+          "notification-preferences.tsx",
+          "preference-test-results.pdf"
+        ],
+        "repository": "aih/platform",
+        "branch": "refactor/notification-preferences",
+        "pullRequest": "#151 Notification preferences"
+      },
+      "documentation": {
+        "generatedAt": "2026-10-06T09:30:00.000Z",
+        "approved": true,
+        "approvedAt": "2026-10-09T13:25:39.517Z"
+      },
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-115",
+      "title": "Add webhook delivery retries",
+      "status": "Documentation Review",
+      "priority": "High",
+      "assignee": "Omar",
+      "initials": "OM",
+      "points": 8,
+      "labels": [
+        "api",
+        "reliability"
+      ],
+      "doc": "Generating",
+      "epic": "Platform",
+      "description": "Implement exponential retry queue and delivery observability.",
+      "project": "E-Commerce System",
+      "dependencies": [
+        {
+          "type": "blockedBy",
+          "issueId": "AIH-110"
+        }
+      ],
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-116",
+      "title": "Fix duplicate member import",
+      "status": "To Do",
+      "priority": "High",
+      "assignee": "Yousef",
+      "initials": "YO",
+      "points": 3,
+      "labels": [
+        "bug",
+        "backend"
+      ],
+      "doc": "Not Started",
+      "epic": "Workspace",
+      "description": "Prevent duplicate memberships during bulk CSV import.",
+      "project": "E-Commerce System",
+      "dependencies": [],
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-117",
+      "title": "Build password reset journey",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Ahmed",
+      "initials": "AH",
+      "points": 5,
+      "labels": [
+        "authentication",
+        "frontend"
+      ],
+      "doc": "Approved",
+      "epic": "Authentication",
+      "description": "Deliver a complete password reset and account recovery journey.",
+      "project": "AI H Platform",
+      "dependencies": [
+        {
+          "type": "blocks",
+          "issueId": "AIH-102"
+        }
+      ],
+      "submission": {
+        "summary": "Implemented the password reset request, token validation, password update, and success states with test coverage.",
+        "evidence": [
+          "Screenshot evidence",
+          "Code evidence",
+          "Video evidence"
+        ],
+        "repository": "aih/platform",
+        "branch": "feature/password-reset",
+        "pullRequest": "#164 Password reset flow"
+      },
+      "documentation": {
+        "generatedAt": "2026-10-06T09:30:00.000Z",
+        "approved": true
+      },
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-118",
+      "title": "Add transaction export endpoint",
+      "status": "Documentation Review",
+      "priority": "Medium",
+      "assignee": "Omar",
+      "initials": "OM",
+      "points": 5,
+      "labels": [
+        "api",
+        "reporting"
+      ],
+      "doc": "Needs Review",
+      "epic": "Reporting",
+      "description": "Expose a CSV export endpoint for account transactions.",
+      "project": "Mobile Banking",
+      "dependencies": [],
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-119",
+      "title": "Implement biometric sign-in",
+      "status": "In Progress",
+      "priority": "High",
+      "assignee": "Lina",
+      "initials": "LI",
+      "points": 8,
+      "labels": [
+        "mobile",
+        "security"
+      ],
+      "doc": "Work Submitted",
+      "epic": "Mobile",
+      "description": "Enable biometric authentication for supported mobile devices.",
+      "project": "Mobile Banking",
+      "dependencies": [],
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-120",
+      "title": "Create deployment runbook",
+      "status": "Done",
+      "priority": "Medium",
+      "assignee": "Yousef",
+      "initials": "YO",
+      "points": 3,
+      "labels": [
+        "deployment",
+        "documentation"
+      ],
+      "doc": "Approved",
+      "epic": "Operations",
+      "description": "Document production deployment, rollback, and verification steps.",
+      "project": "Internal Tools",
+      "dependencies": [],
+      "submission": {
+        "summary": "Created and validated a production deployment runbook with rollback steps and post-deployment checks.",
+        "evidence": [
+          "File evidence",
+          "Screenshot evidence"
+        ],
+        "repository": "aih/internal-tools",
+        "branch": "docs/deployment-runbook",
+        "pullRequest": "#72 Deployment runbook"
+      },
+      "documentation": {
+        "generatedAt": "2026-10-06T09:30:00.000Z",
+        "approved": true
+      },
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-121",
+      "title": "Add invoice payment retry queue",
+      "status": "Submit Work",
+      "priority": "Highest",
+      "assignee": "Sara",
+      "initials": "SA",
+      "points": 8,
+      "labels": [
+        "payments",
+        "reliability"
+      ],
+      "doc": "Not Started",
+      "epic": "Payments",
+      "description": "Retry failed payment collection safely with clear operational visibility.",
+      "project": "E-Commerce System",
+      "dependencies": [
+        {
+          "type": "blockedBy",
+          "issueId": "AIH-118"
+        }
+      ],
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-122",
+      "title": "Improve dashboard loading state",
+      "status": "Documentation Review",
+      "priority": "Low",
+      "assignee": "Ahmed",
+      "initials": "AH",
+      "points": 2,
+      "labels": [
+        "frontend",
+        "ux"
+      ],
+      "doc": "Not Started",
+      "epic": "Workspace",
+      "description": "Create useful loading and empty states for workspace pages.",
+      "project": "AI H Platform",
+      "dependencies": [],
+      "createdAt": "2026-10-07T14:40:19.879Z",
+      "estimateHours": 3
+    },
+    {
+      "id": "AIH-123",
+      "title": "Migrate customer preference table",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Omar",
+      "initials": "OM",
+      "points": 5,
+      "labels": [
+        "database",
+        "migration"
+      ],
+      "doc": "Approved",
+      "epic": "Data platform",
+      "description": "Move customer preference data to the normalized schema.",
+      "project": "E-Commerce System",
+      "dependencies": [],
+      "submission": {
+        "summary": "Migrated preferences to the normalized table, backfilled existing records, and verified reporting queries.",
+        "evidence": [
+          "Code evidence",
+          "File evidence"
+        ],
+        "repository": "aih/commerce",
+        "branch": "migration/customer-preferences",
+        "pullRequest": "#203 Preference migration"
+      },
+      "documentation": {
+        "generatedAt": "2026-10-06T09:30:00.000Z",
+        "approved": true
+      },
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-124",
+      "title": "Create merchant onboarding checklist",
+      "status": "Documentation Review",
+      "priority": "Medium",
+      "assignee": "Lina",
+      "initials": "LI",
+      "points": 3,
+      "labels": [
+        "onboarding",
+        "frontend"
+      ],
+      "doc": "Needs Review",
+      "epic": "Merchant tools",
+      "description": "Guide merchants through required setup steps.",
+      "project": "E-Commerce System",
+      "dependencies": [
+        {
+          "type": "blockedBy",
+          "issueId": "AIH-121"
+        }
+      ],
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-125",
+      "title": "Add incident alert routing",
+      "status": "In Progress",
+      "priority": "Highest",
+      "assignee": "Yousef",
+      "initials": "YO",
+      "points": 5,
+      "labels": [
+        "alerts",
+        "platform"
+      ],
+      "doc": "Generating",
+      "epic": "Operations",
+      "description": "Route platform alerts to the correct on-call responder.",
+      "project": "AI H Platform",
+      "dependencies": [
+        {
+          "type": "relatesTo",
+          "issueId": "AIH-112"
+        }
+      ],
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    },
+    {
+      "id": "AIH-126",
+      "title": "Audit API error messages",
+      "status": "Done",
+      "priority": "Medium",
+      "assignee": "Sara",
+      "initials": "SA",
+      "points": 3,
+      "labels": [
+        "api",
+        "quality"
+      ],
+      "doc": "Approved",
+      "epic": "Platform",
+      "description": "Standardize actionable API error responses across services.",
+      "project": "AI H Platform",
+      "dependencies": [],
+      "submission": {
+        "summary": "Audited public API errors, added standardized error codes, and updated API contract tests.",
+        "evidence": [
+          "Code evidence",
+          "Screenshot evidence"
+        ],
+        "repository": "aih/platform",
+        "branch": "chore/api-errors",
+        "pullRequest": "#217 API error audit"
+      },
+      "documentation": {
+        "generatedAt": "2026-10-06T09:30:00.000Z",
+        "approved": true
+      },
+      "createdAt": "2026-10-07T14:40:19.879Z"
+    }
+  ],
+  "documentTemplates": [
+    {
+      "id": "technical",
+      "name": "Technical implementation guide",
+      "bestFor": "Engineering features and platform changes",
+      "sections": [
+        "Overview",
+        "Purpose",
+        "Implementation",
+        "Architecture",
+        "Configuration",
+        "Testing",
+        "Security considerations"
+      ]
+    },
+    {
+      "id": "sales",
+      "name": "Sales activity report",
+      "bestFor": "Sales calls, pipeline updates, and account progress",
+      "sections": [
+        "Executive summary",
+        "Accounts contacted",
+        "Activity completed",
+        "Key findings",
+        "Opportunities",
+        "Next steps"
+      ]
+    },
+    {
+      "id": "analysis",
+      "name": "Business analysis report",
+      "bestFor": "Analysis, recommendations, and stakeholder decisions",
+      "sections": [
+        "Objective",
+        "Methodology",
+        "Findings",
+        "Impact",
+        "Recommendations",
+        "Next steps"
+      ]
+    },
+    {
+      "id": "handover",
+      "name": "Client handover guide",
+      "bestFor": "Client delivery and operational handover",
+      "sections": [
+        "Scope delivered",
+        "How to use",
+        "Configuration",
+        "Known limitations",
+        "Support contacts",
+        "Next steps"
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1791552339517",
+      "message": "Documentation approved and AIH-114 completed",
+      "project": "Internal Tools",
+      "createdAt": "2026-10-09T13:25:39.517Z",
+      "read": false
+    },
+    {
+      "id": "1791547917939",
+      "message": "AIH-121 updated",
+      "createdAt": "2026-10-09T12:11:57.939Z",
+      "read": false
+    },
+    {
+      "id": "1791547914031",
+      "message": "AIH-111 updated",
+      "createdAt": "2026-10-09T12:11:54.031Z",
+      "read": false
+    },
+    {
+      "id": "1791547910579",
+      "message": "AIH-122 updated",
+      "createdAt": "2026-10-09T12:11:50.579Z",
+      "read": false
+    },
+    {
+      "id": "1791547907644",
+      "message": "AIH-102 updated",
+      "createdAt": "2026-10-09T12:11:47.644Z",
+      "read": false
+    },
+    {
+      "id": "1791489519592",
+      "message": "AIH-102 updated",
+      "createdAt": "2026-10-08T19:58:39.592Z",
+      "read": false
+    },
+    {
+      "id": "1791487865378",
+      "message": "AIH-139 updated",
+      "createdAt": "2026-10-08T19:31:05.378Z",
+      "read": false
+    },
+    {
+      "id": "1791487861428",
+      "message": "AIH-102 updated",
+      "createdAt": "2026-10-08T19:31:01.428Z",
+      "read": false
+    },
+    {
+      "id": "1791487858568",
+      "message": "AIH-102 updated",
+      "createdAt": "2026-10-08T19:30:58.568Z",
+      "read": false
+    },
+    {
+      "id": "1791487855843",
+      "message": "AIH-102 updated",
+      "createdAt": "2026-10-08T19:30:55.843Z",
+      "read": false
+    },
+    {
+      "id": "1791482502482",
+      "message": "AIH-139 updated",
+      "createdAt": "2026-10-08T18:01:42.482Z",
+      "read": false
+    },
+    {
+      "id": "1791482497995",
+      "message": "AIH-139 updated",
+      "createdAt": "2026-10-08T18:01:37.995Z",
+      "read": false
+    },
+    {
+      "id": "1791482361197",
+      "message": "AIH-138 updated",
+      "createdAt": "2026-10-08T17:59:21.197Z",
+      "read": false
+    },
+    {
+      "id": "1791481805716",
+      "message": "AIH-139 updated",
+      "createdAt": "2026-10-08T17:50:05.716Z",
+      "read": false
+    },
+    {
+      "id": "1791481805556",
+      "message": "AIH-139 updated",
+      "createdAt": "2026-10-08T17:50:05.556Z",
+      "read": false
+    },
+    {
+      "id": "1791481805396",
+      "message": "AIH-139 updated",
+      "createdAt": "2026-10-08T17:50:05.396Z",
+      "read": false
+    },
+    {
+      "id": "1791481805268",
+      "message": "AIH-139 updated",
+      "createdAt": "2026-10-08T17:50:05.268Z",
+      "read": false
+    },
+    {
+      "id": "1791481805108",
+      "message": "AIH-139 updated",
+      "createdAt": "2026-10-08T17:50:05.108Z",
+      "read": false
+    },
+    {
+      "id": "1791481804724",
+      "message": "AIH-139 updated",
+      "createdAt": "2026-10-08T17:50:04.724Z",
+      "read": false
+    },
+    {
+      "id": "1791481804429",
+      "message": "AIH-139 updated",
+      "createdAt": "2026-10-08T17:50:04.429Z",
+      "read": false
+    },
+    {
+      "id": "1791481794803",
+      "message": "AIH-102 updated",
+      "createdAt": "2026-10-08T17:49:54.803Z",
+      "read": false
+    },
+    {
+      "id": "1791481792268",
+      "message": "AIH-139 updated",
+      "createdAt": "2026-10-08T17:49:52.268Z",
+      "read": false
+    },
+    {
+      "id": "1791481789900",
+      "message": "AIH-102 updated",
+      "createdAt": "2026-10-08T17:49:49.900Z",
+      "read": false
+    },
+    {
+      "id": "1791481730466",
+      "message": "AIH-102 updated",
+      "createdAt": "2026-10-08T17:48:50.466Z",
+      "read": false
+    },
+    {
+      "id": "1791481722684",
+      "message": "AIH-139 updated",
+      "createdAt": "2026-10-08T17:48:42.684Z",
+      "read": false
+    },
+    {
+      "id": "1791481624454",
+      "message": "AIH-139 updated",
+      "createdAt": "2026-10-08T17:47:04.454Z",
+      "read": false
+    },
+    {
+      "id": "1791481504295",
+      "message": "AIH-137 updated",
+      "createdAt": "2026-10-08T17:45:04.295Z",
+      "read": false
+    },
+    {
+      "id": "1791481501471",
+      "message": "AIH-138 updated",
+      "createdAt": "2026-10-08T17:45:01.471Z",
+      "read": false
+    },
+    {
+      "id": "1791481492079",
+      "message": "AIH-137 updated",
+      "createdAt": "2026-10-08T17:44:52.079Z",
+      "read": false
+    },
+    {
+      "id": "1791481461447",
+      "message": "AIH-112 updated",
+      "createdAt": "2026-10-08T17:44:21.447Z",
+      "read": false
+    }
+  ]
+}

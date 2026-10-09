@@ -1,0 +1,7 @@
+/* Minimal global header: search is the only persistent top-level control. */
+.app main>header{height:48px;padding:0 20px;justify-content:flex-start;background:#252525;border-color:#303030;box-shadow:none}
+.app main>header>.crumb,.app main>header .top-actions>.icon-btn,.app main>header .top-actions>.avatar{display:none}
+.app main>header .top-actions{width:100%;gap:0}
+.app main>header .search-button{width:min(540px,calc(100vw - 104px));height:32px;min-height:32px;padding:0 12px;border:1px solid #555;background:#303030;border-radius:18px;color:#a9a9a9;font-size:14px;font-weight:400;box-shadow:none}
+.app main>header .search-button:hover{background:#363636;border-color:#676767;color:#e5e5e5}
+.app main>header .search-button kbd{display:none}
